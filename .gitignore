@@ -1,0 +1,41 @@
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+*.lnk
+
+# Arquivos de IDE/Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Dependências e pacotes
+node_modules/
+bower_components/
+jspm_packages/
+
+# Cache e arquivos gerados
+.sass-cache/
+*.css.map
+*.tmp
+*.temp
+
+# Arquivos de ambiente
+.env
+.env.local
+
+# Arquivos de build/automação
+dist/
+build/
+assets/css/min/
+*.min.css
+*.min.js
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sistema operacional
+ehthumbs.db
+[Tt]humbs.db
