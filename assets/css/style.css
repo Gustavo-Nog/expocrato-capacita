@@ -172,4 +172,67 @@ body {
       font-size: 0.9rem;
     }
   }
+  .tabs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.botoes-dias {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.botoes-dias input[type="radio"] {
+  display: none;
+}
+
+.botoes-dias label {
+  background-color: #eee;
+  padding: 0.8rem 1.2rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #712bda;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.botoes-dias input[type="radio"]:checked + label {
+  background-color: #712bda;
+  color: white;
+}
+
+.conteudos {
+  width: 100%;
+  max-width: 800px;
+}
+
+.conteudo {
+  display: none;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#tab11:checked ~ .conteudos #content11,
+#tab12:checked ~ .conteudos #content12,
+#tab13:checked ~ .conteudos #content13,
+#tab14:checked ~ .conteudos #content14,
+#tab15:checked ~ .conteudos #content15,
+#tab16:checked ~ .conteudos #content16,
+#tab17:checked ~ .conteudos #content17,
+#tab18:checked ~ .conteudos #content18,
+#tab19:checked ~ .conteudos #content19,
+#tab20:checked ~ .conteudos #content20 {
+  display: block;
+}
+
+
+
   
