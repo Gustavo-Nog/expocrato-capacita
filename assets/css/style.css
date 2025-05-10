@@ -9,7 +9,7 @@ body {
   
   header {
     position: relative;
-    background: url('../images/expocratofundo.jpg') no-repeat calc(50% - 0px) calc(100% + 190px) / cover;
+    background: url('../images/expocratofundo.jpg') no-repeat center calc(100% - 15%) / cover;
     background-size:cover;
     color: white;
     text-align: center;
