@@ -8,18 +8,46 @@ body {
   }
   
   header {
-    background: linear-gradient(to right, #712bda, #9e53f1);
+    position: relative;
+    background: url('../images/expocratofundo.jpg') no-repeat center calc(100% - 15%) / cover;
+    background-size:cover;
     color: white;
     text-align: center;
     padding: 2rem 1rem;
+  }
+
+  header::before{
+    content: '';
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
   }
   
   header img {
     width: 100px;
     height: auto;
     margin-bottom: 1rem;
+    position: relative;
+    z-index: 1;
   }
   
+  header h1 {
+    font-size: 50px;
+    position: relative;
+    z-index: 1;
+  }
+
+  header p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    position: relative;
+    z-index: 1;
+  }
+
   section {
     padding: 2rem 1rem;
     max-width: 1200px;
